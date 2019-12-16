@@ -764,6 +764,19 @@
 	padding-bottom: 100px;
 }
 
+.bio-image {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.bio-heading {
+	color: #d01f2f;
+	font-size: 25px;
+	padding-bottom: 15px;
+
+}
   
   
   /* .portfolio-columns-fw .portfolio-item figure figcaption:hover, .portfolio-columns-boxed .portfolio-item figure figcaption:hover {
