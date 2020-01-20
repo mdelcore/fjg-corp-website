@@ -6,7 +6,7 @@ if(isset($_POST['email'])) {
  
     // ADD YOUR EMAIL WHERE YOU WANT TO RECIEVE THE MESSAGES
  
-    $email_to = "admin@fjgcorp.com";
+    $email_to = "info@fjgadvertising.com";
  
     $email_subject = "Website Inquiry";
  
