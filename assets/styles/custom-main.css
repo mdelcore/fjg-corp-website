@@ -304,6 +304,7 @@
 	color: #777;
   }
 
+
   .portfolio-columns-fw .portfolio-item figure figcaption .p-content h2:last-child,
 .portfolio-columns-boxed .portfolio-item figure figcaption .p-content h2:last-child,
 .portfolio-columns-fw .portfolio-item figure figcaption .p-content h3:last-child,
@@ -775,6 +776,8 @@
 	padding-bottom: 15px;
 
 }
+
+
   
   
   /* .portfolio-columns-fw .portfolio-item figure figcaption:hover, .portfolio-columns-boxed .portfolio-item figure figcaption:hover {
@@ -816,3 +819,155 @@
   .portfolio-columns-fw .p-wrapper:hover .open-btn, .portfolio-columns-boxed .p-wrapper:hover .open-btn, .portfolio-columns-fw .p-wrapper:active .open-btn, .portfolio-columns-boxed .p-wrapper:active .open-btn {
 	top: 0;
   } */
+
+  /* Custome Media Query Breakpoints */
+
+/* Small devices (landscape phones, 576px and up) */
+
+
+@media (max-width: $screen-md) {
+	.main-demo-hero,
+	.fs-video-hero,
+	.fw-video-hero,
+	.freelancer-hero {
+		background-attachment: initial;
+	} 
+
+	.animated-hero,
+	.agency2-hero,
+	.web-app-hero  {
+		background-attachment: initial;
+	}
+
+
+	.landing-hero {
+
+		.form-wrapper {
+			margin-top: $ws-m;
+			padding-left: 35px;
+			padding-right: 35px;
+		}
+	} 
+
+	.fw-slider-hero {
+		
+		.fw-slide-1,
+		.fw-slide-3 {
+
+			.hero-content-wrapper {
+
+				.hero-content {
+
+					.hero-lead {
+						font-size: 3em;
+						letter-spacing: 15px;
+					}
+				}
+			}
+		} //
+
+		.fw-slide-2 {
+
+			.hero-content-wrapper {
+
+				.hero-content {
+
+					.hero-lead {
+						font-size: 4em;
+					}
+				}
+			}
+		} 
+	} 
+} 
+
+@media (max-width: $screen-sm) {
+	.main-demo-hero,
+	.fs-video-hero,
+	.fw-video-hero {
+
+		.hero-content-wrapper {
+
+			.hero-content {
+
+				.hero-lead {
+					font-size: 2.5em;
+
+					br {
+						display: none;
+					}
+				}
+
+				.hero-subheading {
+					margin-top: $ws-s;
+				}
+			}
+		}
+	}
+
+	.fs-slider-hero {
+		
+		.fs-slide-1,
+		.fs-slide-2,  {
+
+			.hero-content {
+
+				.hero-lead {
+					font-size: 3em;
+				}
+
+				.hero-subheading {
+					margin-top: $ws-s;
+				}
+			}
+		}
+
+	
+	}
+
+	.mobile-responsive {
+		display: none;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 770px) { 
+	.mobile-responsive {
+		display: none;
+	}
+
+	.fs-video-hero
+	.hero-content-wrapper
+	.hero-content
+	.hero-lead {
+		font-size: 2.5em;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.mobile-responsive {
+		display: none;
+	}
+
+	.fs-video-hero
+	.hero-content-wrapper
+	.hero-content
+	.hero-lead {
+		font-size: 2.5em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.mobile-responsive {
+		display: none;
+	}
+
+	.fs-video-hero
+	.hero-content-wrapper
+	.hero-content
+	.hero-lead {
+		font-size: 2.5em;
+	}
+}
